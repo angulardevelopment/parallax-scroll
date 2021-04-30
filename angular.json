@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "parallax-scroll"
+  "defaultProject": "parallax-scroll",
+  "cli": {
+    "analytics": "8c6949b0-6782-47de-a193-efe4793328e5"
+  }
 }
