@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BasicComponent } from './basic.component';
+import { GalaxyComponent } from './galaxy.component';
 
-describe('BasicComponent', () => {
-  let component: BasicComponent;
-  let fixture: ComponentFixture<BasicComponent>;
+describe('GalaxyComponent', () => {
+  let component: GalaxyComponent;
+  let fixture: ComponentFixture<GalaxyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BasicComponent ]
+      declarations: [ GalaxyComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BasicComponent);
+    fixture = TestBed.createComponent(GalaxyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

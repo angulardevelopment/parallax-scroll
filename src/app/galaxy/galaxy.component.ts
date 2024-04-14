@@ -14,13 +14,13 @@ interface Star {
   conf: IParallaxScrollConfig;
 }
 @Component({
-  selector: 'app-basic',
-  templateUrl: './basic.component.html',
-  styleUrls: ['./basic.component.scss'],
+  selector: 'app-galaxy',
+  templateUrl: './galaxy.component.html',
+  styleUrls: ['./galaxy.component.scss'],
   animations: animations
 
 })
-export class BasicComponent implements OnInit {
+export class GalaxyComponent implements OnInit {
 
  public minStarsCount: number = 10;
  public maxStarsCount: number = 30;
