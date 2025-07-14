@@ -8,11 +8,13 @@ import { GalaxyComponent } from './galaxy/galaxy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
+import { PrettierDemoComponent } from './prettier-demo/prettier-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GalaxyComponent
+    GalaxyComponent,
+    PrettierDemoComponent
   ],
   imports: [
     BrowserModule,
